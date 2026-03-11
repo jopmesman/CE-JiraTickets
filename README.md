@@ -2,6 +2,16 @@
 
 JiraTickets is a small Chrome extension that lets you quickly open Jira issues by typing the ticket key. Instead of manually navigating to Jira and searching for an issue, you can press a hotkey, type the ticket ID (for example `ABC-123`), and a new tab will open directly on that issue page.
 
+### Screenshots
+
+**Ticket search popup**
+
+![Ticket search popup](docs/jiratickets-popup.png)
+
+**Settings (options) page**
+
+![Settings page](docs/jiratickets-options.png)
+
 ### How it works
 
 - The extension stores your Jira base URL (for example `https://jira.yourcompany.com/browse/`) in Chrome sync storage.
